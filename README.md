@@ -1,13 +1,16 @@
-# homework
-## homework
-#### homework
-###### homework
+```mermaid
+graph TD;
+    A[研擬計劃] -->|1天| B[任務分配];
+    A -->|1天| C[取得硬體];
+    B -->|4天| D[程式開發];
+    C -->|17天| E[安裝硬體];
+    D -->|70天| F[程式測試];
+    E -->|10天| G[撰寫使用手冊];
+    E -->|10天| H[轉換檔案];
+    F -->|30天| I[系統測試];
+    G -->|25天| J[使用者訓練];
+    H -->|20天| J;
+    I -->|25天| K[使用者測試];
+    J -->|20天| K;
 
-
- 、、small zone、
-
-、、、big zone
-
-![nkust](https://github.com/user-attachments/assets/1b750c33-7f74-442b-a1c0-78914e0829fa)
-
-[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
+  
