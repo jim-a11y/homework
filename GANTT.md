@@ -15,5 +15,8 @@ gantt
     轉換檔案            :after a5  , 20d
     section 測試與訓練
     系統測試            :after a6  , 25d
-    使用者訓練          :after a7  , 20d
-    使用者測試          :after a9  , 25d
+    使用者訓練          :after a7, 20d
+    使用者測試          :after a9, 25d
+
+    %% Add start and end dates
+    %% Start and end dates can be added as comments in the task lines for clarity.
